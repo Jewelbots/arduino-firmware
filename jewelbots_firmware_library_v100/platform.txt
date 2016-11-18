@@ -4,6 +4,13 @@ version=1.0.0
 
 # Jewelbots Firmware Uploader tools
 # ----------------------
+# Upload step 1 file options
+compiler.update1.cmd.windows=JWBLoader.exe
+compiler.update1.cmd.macosx=JWBLoader_osx
+compiler.update1.cmd.linux=JWBLoader_linux
+
+recipe.hooks.sketch.prebuild.1.pattern="{runtime.platform.path}/{compiler.update1.cmd}" --verbose dfu serial --package="{runtime.platform.path}/"JWB_update_1_01a.zip --port={serial.port} --baudrate=38400
+
 
 tools.JWBLoader.path={runtime.platform.path}/
 tools.JWBLoader.cmd.windows=JWBLoader.exe
@@ -11,4 +18,4 @@ tools.JWBLoader.cmd.macosx=JWBLoader_osx
 tools.JWBLoader.cmd.linux=JWBLoader_linux
 tools.JWBLoader.upload.params.verbose=--verbose
 tools.JWBLoader.upload.params.quiet=--verbose
-tools.JWBLoader.upload.pattern="{path}/{cmd}" {upload.verbose} dfu serial --package={build.path}/USB_load_app1.zip --port={serial.port} --baudrate=38400
+tools.JWBLoader.upload.pattern="{path}/{cmd}" --verbose dfu serial --package="{runtime.platform.path}/"JWB_update_1_01b.zip --port={serial.port} --baudrate=38400

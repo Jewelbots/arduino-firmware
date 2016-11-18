@@ -1,6 +1,26 @@
 name=Jewelbots Firmware
 version=1.0.0
 
+# Compile tool path
+compiler.path=
+# Compile s files options
+compiler.S.cmd=
+# Compile c files options
+compiler.c.cmd=
+# Compile cpp files options
+compiler.cpp.cmd=
+# Create archives options
+compiler.ar.cmd=
+
+
+## Compile S files
+recipe.S.o.pattern=
+## Compile c files
+recipe.c.o.pattern=
+## Compile c++ files
+recipe.cpp.o.pattern=
+## Create archives
+recipe.ar.pattern=
 
 # Jewelbots Firmware Uploader tools
 # ----------------------

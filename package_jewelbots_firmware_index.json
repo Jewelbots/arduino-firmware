@@ -11,7 +11,7 @@
       [
         {
           "name": "Jewelbots Firmware Update",
-          "architecture": "nRF51822",
+          "architecture": "JWBFirmware",
           "version": "1.0.0",
           "category": "Contributed",
           "url": "http://jewelbots.github.io/arduino-firmware/jewelbots_firmware_update_v100.tar.gz",

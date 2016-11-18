@@ -1,0 +1,14 @@
+name=Jewelbots Firmware
+version=1.0.0
+
+
+# Jewelbots Firmware Uploader tools
+# ----------------------
+
+tools.JWBLoader.path={runtime.platform.path}/
+tools.JWBLoader.cmd.windows=JWBLoader.exe
+tools.JWBLoader.cmd.macosx=JWBLoader_osx
+tools.JWBLoader.cmd.linux=JWBLoader_linux
+tools.JWBLoader.upload.params.verbose=--verbose
+tools.JWBLoader.upload.params.quiet=--verbose
+tools.JWBLoader.upload.pattern="{path}/{cmd}" {upload.verbose} dfu serial --package={build.path}/USB_load_app1.zip --port={serial.port} --baudrate=38400

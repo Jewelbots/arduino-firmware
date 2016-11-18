@@ -2,8 +2,8 @@
   "packages":
   [
     {
-      "name": "Jewelbots",
-      "maintainer": "Jewelbots",
+      "name": "Jewelbots Firmware Update",
+      "maintainer": "Jewelbots Inc",
       "websiteURL": "https://jewelbots.com/",
       "email": "hi@jewelbots.com",
       "help": {"online": "http://jewelbots.com/forums"},

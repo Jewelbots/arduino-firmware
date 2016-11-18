@@ -1,0 +1,2 @@
+JWBFirmware.name=Jewelbots Friendship Mode
+JWBFirmware.upload.tool=JWBLoader

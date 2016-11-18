@@ -8,3 +8,5 @@ JWBFirmware.build.f_cpu=16000000
 JWBFirmware.build.board=JWB_nRF51822
 JWBFirmware.build.core=JWB_nRF51822
 JWBFirmware.build.variant=JWB_nRF51822
+nRF51822.build.extra_flags=-mthumb
+nRF51822.build.ldscript=linker_scripts/gcc/JWB_nRF51822.ld

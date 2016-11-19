@@ -159,7 +159,7 @@ Reset_Handler:
 
 .LC0:
 
-    LDR     R0, =SystemInit
+    LDR     R0, =0
     BLX     R0
     LDR     R0, =_start
     BX      R0

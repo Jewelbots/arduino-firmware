@@ -80,4 +80,4 @@ tools.JWBLoader.cmd.macosx=JWB_Update_macosx.sh
 tools.JWBLoader.cmd.linux=JWBLoader_linux
 tools.JWBLoader.upload.params.verbose=--verbose
 tools.JWBLoader.upload.params.quiet=--verbose
-tools.JWBLoader.upload.pattern="{path}/{cmd}" {serial.port}
+tools.JWBLoader.upload.pattern="{path}/{cmd}" {path} {serial.port}

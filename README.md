@@ -23,6 +23,8 @@ Jewelbots' Firmware Library
 
 7. Click File -> New
 
-8. Hit the upload button or the "arrow".
+8. Hold down the Magic Button on the Jewelbot for 2 seconds.  Observe the charging light turn off.
+
+9. Hit the upload button or the "arrow".
 
 ### Your Jewelbot will glow with a Success Rainbow when it is ready to go!

@@ -23,7 +23,7 @@ Jewelbots' Firmware Library
 
 7. Click File -> New
 
-8. Hold down the Magic Button on the Jewelbot for 2 seconds.  Observe the charging light turn off.
+8. Hold down the Magic Button on the Jewelbot for 2 seconds.  Observe the charging light turns off, or if you have previously updated that the lights glow purple.
 
 9. Hit the upload button or the "arrow".
 

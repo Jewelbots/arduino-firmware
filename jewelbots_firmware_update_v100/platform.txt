@@ -77,7 +77,7 @@ recipe.c.combine.pattern="{compiler.path}{compiler.c.elf.cmd}" -mcpu={build.mcu}
 tools.JWBLoader.path={runtime.platform.path}
 tools.JWBLoader.cmd.windows=JWB_Update_win.bat
 tools.JWBLoader.cmd.macosx=JWB_Update_mac.sh
-tools.JWBLoader.cmd.linux=JWBLoader_linux
+tools.JWBLoader.cmd.linux=JWB_Update_linux.sh
 tools.JWBLoader.upload.params.verbose=--verbose
 tools.JWBLoader.upload.params.quiet=--verbose
 tools.JWBLoader.upload.pattern="{path}/{cmd}" {path} {serial.port}

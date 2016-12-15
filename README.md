@@ -28,3 +28,6 @@ Jewelbots' Firmware Library
 9. Hit the upload button or the "arrow".
 
 ### Your Jewelbot will glow with a Success Rainbow when it is ready to go!
+
+Special thanks to Red Bear Labs for their hard work in developing Arduino coding for the nRF51822. 
+https://github.com/RedBearLab/nRF51822-Arduino

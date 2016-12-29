@@ -1,6 +1,6 @@
 # Jewelbots Firmware Update
 
-The best way to ensure your Jewelbots are functioning at 100% is to update your firmware. We've made a lot of improvements to the devices since they went through the factory.
+The best way to ensure your Jewelbots are functioning at 100% is to update your firmware. We've made a lot of improvements to the devices since they went through the factory. If you'd like to ask any questions, you can ask us in Slack [here](https://wt-sara-jewelbots-com-0.run.webtask.io/jewelbots-signup).
 
 In order to do this you will need a computer. A laptop or a desktop. The step-by-step instructions are below.
 
@@ -28,3 +28,6 @@ Jewelbots' Firmware Library
 9. Hit the upload button or the "arrow".
 
 ### Your Jewelbot will glow with a Success Rainbow when it is ready to go!
+
+Special thanks to Red Bear Labs for their hard work in developing Arduino coding for the nRF51822. 
+https://github.com/RedBearLab/nRF51822-Arduino

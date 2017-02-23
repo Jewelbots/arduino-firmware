@@ -1,12 +1,12 @@
-JWBFirmware.name=Jewelbots Firmware Update
+JWBFirmware.name=Factory Firmware Update
 
 JWBFirmware.upload.tool=JWBLoader
 JWBFirmware.upload.protocol=
 
 JWBFirmware.build.mcu=cortex-m0
 JWBFirmware.build.f_cpu=16000000
-JWBFirmware.build.board=JWBFIRMWARE_NRF51822
-JWBFirmware.build.core=JWB_nRF51822
-JWBFirmware.build.variant=JWB_nRF51822
+JWBFirmware.build.board=Jewelbot_v1
+JWBFirmware.build.core=Jewelbot_v1
+JWBFirmware.build.variant=Jewelbot_v1
 JWBFirmware.build.extra_flags=-mthumb
 JWBFirmware.build.ldscript=linker_scripts/gcc/JWB_nRF51822.ld

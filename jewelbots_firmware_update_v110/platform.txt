@@ -1,4 +1,4 @@
-name=Jewelbots Firmware
+name=Jewelbots Boards
 version=1.0.0
 
 # Compile tool path

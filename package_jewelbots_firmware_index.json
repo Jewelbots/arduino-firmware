@@ -24,7 +24,7 @@
     },
     {
         "name": "Jewelbots Firmware Update",
-        "architecture": "Jewelbot_v1",
+        "architecture": "JWBFirmware",
         "version": "1.1.0",
         "category": "Contributed",
         "url": "https://github.com/Jewelbots/arduino-firmware/releases/download/v1.1.0/jewelbots_firmware_update_v110.tar.gz",

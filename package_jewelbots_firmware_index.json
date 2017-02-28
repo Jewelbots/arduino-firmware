@@ -1,6 +1,35 @@
 {
   "packages":
   [
+    {
+      "name": "Jewelbots_Firmware_Update",
+      "maintainer": "Jewelbots Inc",
+      "websiteURL": "https://jewelbots.com/",
+      "email": "hi@jewelbots.com",
+      "help": {"online": "http://jewelbots.com/forums"},
+      "platforms":
+      [
+        {
+          "name": "Jewelbots Firmware Update",
+          "architecture": "JWBFirmware",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "http://jewelbots.github.io/arduino-firmware/jewelbots_firmware_update_v100.tar.gz",
+          "archiveFileName": "jewelbots_firmware_update_v100.tar.gz",
+          "size": "300000",
+          "boards":
+          [
+            {"name": "Jewelbots Firmware Update"}
+          ],
+          "toolsDependencies":
+          [
+              {
+                  "packager": "arduino",
+                  "name": "arm-none-eabi-gcc",
+                  "version": "4.8.3-2014q1"
+              }
+          ]
+      },
       {
         "name": "Jewelbots Firmware Update",
         "architecture": "JWBFirmware",
@@ -8,27 +37,6 @@
         "category": "Contributed",
         "url": "https://github.com/Jewelbots/arduino-firmware/releases/download/v1.0.4/jewelbots_firmware_update_v104.tar.gz",
         "archiveFileName": "jewelbots_firmware_update_v104.tar.gz",
-        "size": "300000",
-        "boards":
-        [
-          {"name": "Jewelbots Firmware Update"}
-        ],
-        "toolsDependencies":
-        [
-            {
-                "packager": "arduino",
-                "name": "arm-none-eabi-gcc",
-                "version": "4.8.3-2014q1"
-            }
-        ]
-    },
-    {
-        "name": "Jewelbots Firmware Update",
-        "architecture": "JWBFirmware",
-        "version": "1.1.0",
-        "category": "Contributed",
-        "url": "https://github.com/Jewelbots/arduino-firmware/releases/download/v1.1.0/jewelbots_firmware_update_v110.tar.gz",
-        "archiveFileName": "jewelbots_firmware_update_v110.tar.gz",
         "size": "300000",
         "boards":
         [

@@ -92,6 +92,27 @@
                 "version": "4.8.3-2014q1"
             }
         ]
+    },
+        {
+        "name": "Jewelbots Firmware Update",
+        "architecture": "JWBFirmware",
+        "version": "1.1.6",
+        "category": "Contributed",
+        "url": "https://github.com/Jewelbots/arduino-firmware/releases/download/v1.1.6/jewelbots_firmware_update_v116.tar.gz",
+        "archiveFileName": "jewelbots_firmware_update_v116.tar.gz",
+        "size": "300000",
+        "boards":
+        [
+          {"name": "Jewelbots Firmware Update"}
+        ],
+        "toolsDependencies":
+        [
+            {
+                "packager": "arduino",
+                "name": "arm-none-eabi-gcc",
+                "version": "4.8.3-2014q1"
+            }
+        ]
     }
   ],
   "tools":[]
